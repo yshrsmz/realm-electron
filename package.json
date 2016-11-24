@@ -1,0 +1,34 @@
+{
+  "name": "realm-electron",
+  "version": "0.0.1",
+  "description": "try realm-node with electron",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/electron ./dist/main",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yshrsmz/realm-electron.git"
+  },
+  "author": "yshrsmz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yshrsmz/realm-electron/issues"
+  },
+  "homepage": "https://github.com/yshrsmz/realm-electron#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-preset-es2015": "^6.18.0",
+    "electron-packager": "^8.3.0",
+    "electron-prebuilt": "^1.4.9",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-json-editor": "^2.2.1",
+    "gulp-shell": "^0.5.2",
+    "lodash": "^4.17.2"
+  },
+  "dependencies": {
+    "realm": "^0.15.1-rc"
+  }
+}
